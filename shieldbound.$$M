@@ -1,0 +1,123 @@
+// Wed (5.46.01)
+
+version 511
+
+
+{
+	0
+	shieldbound.$$w
+	palette.pcx
+	{   // 0
+		vertices 8
+		faces 6
+		448 -1104 64   48 -848 64   384 -1104 64
+		-16 -848 64   448 -1104 0   48 -848 0
+		384 -1104 0   -16 -848 0
+		4  1 0 2 3 : linesblackyell ( 1 0 0 0 ) ( 0 -1 0 0 ) : 0000 0 50 ndef
+		4  0 1 5 4 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  2 0 4 6 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  3 2 6 7 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  1 3 7 5 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  4 5 7 6 : linesblackyell ( 1 0 0 0 ) ( 0 -1 0 0 ) : 0000 0 50 ndef
+		{
+			0000
+			ndef
+			0
+		}
+	}
+	{   // 1
+		vertices 8
+		faces 6
+		48 -848 64   -200 -456 64   -16.000008 -848 64
+		-264 -456 64   48 -848 0   -200 -456 0
+		-16.000008 -848 0   -264 -456 0
+		4  1 0 2 3 : linesblackyell ( 1 0 0 0 ) ( 0 -1 0 0 ) : 0000 0 50 ndef
+		4  0 1 5 4 : linesblackyell ( 0 1 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  2 0 4 6 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  3 2 6 7 : linesblackyell ( 0 1 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  1 3 7 5 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  4 5 7 6 : linesblackyell ( 1 0 0 0 ) ( 0 -1 0 0 ) : 0000 0 50 ndef
+		{
+			0000
+			ndef
+			1
+		}
+	}
+	{   // 2
+		vertices 8
+		faces 6
+		-200 -456 64   -296 0 64   -264 -456 64
+		-360 0 64   -200 -456 0   -296 0 0
+		-264 -456 0   -360 0 0
+		4  1 0 2 3 : linesblackyell ( 1 0 0 0 ) ( 0 -1 0 0 ) : 0000 0 50 ndef
+		4  0 1 5 4 : linesblackyell ( 0 1 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  2 0 4 6 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  3 2 6 7 : linesblackyell ( 0 1 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  1 3 7 5 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  4 5 7 6 : linesblackyell ( 1 0 0 0 ) ( 0 -1 0 0 ) : 0000 0 50 ndef
+		{
+			0000
+			ndef
+			2
+		}
+	}
+	{   // 3
+		vertices 8
+		faces 6
+		-296 0 64   -200 456 64   -360 0 64
+		-264 456 64   -296 0 0   -200 456 0
+		-360 0 0   -264 456 0
+		4  1 0 2 3 : linesblackyell ( 1 0 0 0 ) ( 0 -1 0 0 ) : 0000 0 50 ndef
+		4  0 1 5 4 : linesblackyell ( 0 1 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  2 0 4 6 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  3 2 6 7 : linesblackyell ( 0 1 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  1 3 7 5 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  4 5 7 6 : linesblackyell ( 1 0 0 0 ) ( 0 -1 0 0 ) : 0000 0 50 ndef
+		{
+			0000
+			ndef
+			3
+		}
+	}
+	{   // 4
+		vertices 8
+		faces 6
+		-200 456 64   56 848 64   -264 456 64
+		-8.000008 848 64   -200 456 0   56 848 0
+		-264 456 0   -8.000008 848 0
+		4  1 0 2 3 : linesblackyell ( 1 0 0 0 ) ( 0 -1 0 0 ) : 0000 0 50 ndef
+		4  0 1 5 4 : linesblackyell ( 0 1 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  2 0 4 6 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  3 2 6 7 : linesblackyell ( 0 1 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  1 3 7 5 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  4 5 7 6 : linesblackyell ( 1 0 0 0 ) ( 0 -1 0 0 ) : 0000 0 50 ndef
+		{
+			0000
+			ndef
+			4
+		}
+	}
+	{   // 5
+		vertices 8
+		faces 6
+		56 848 64   448 1104 64   -8.000015 848 64
+		384 1104 64   55.999985 848 0   448 1104 0
+		-8.000015 848 0   384 1104 0
+		4  1 0 2 3 : linesblackyell ( 1 0 0 0 ) ( 0 -1 0 0 ) : 0000 0 50 ndef
+		4  0 1 5 4 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  2 0 4 6 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  3 2 6 7 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  1 3 7 5 : linesblackyell ( 1 0 0 0 ) ( 0 0 -1 0 ) : 0000 0 50 ndef
+		4  4 5 7 6 : linesblackyell ( 1 0 0 0 ) ( 0 -1 0 0 ) : 0000 0 50 ndef
+		{
+			0000
+			ndef
+			5
+		}
+	}
+}
+{
+	5
+	0
+	60
+}
